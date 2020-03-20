@@ -8,13 +8,13 @@ public class CoffeeTouchscreenAdapter implements CoffeeMachineInterface {
 	}
 
 	@Override
-	public void chooseFirstSelection() {
-		oldMachine.selectA();
+	public String chooseFirstSelection() {
+		return oldMachine.selectA();
 	}
 
 	@Override
-	public void chooseSecondSelection() {
-		oldMachine.selectB();
+	public String chooseSecondSelection() {
+		return oldMachine.selectB();
 	}
 	
 	

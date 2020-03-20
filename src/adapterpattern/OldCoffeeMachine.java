@@ -1,11 +1,15 @@
 package adapterpattern;
 
 public class OldCoffeeMachine {
-	public void selectA() {
-		System.out.println("A is selected");
+	public String selectA() {
+		String inform = "A is selected";
+		System.out.println(inform);
+		return inform;
 	}
 	
-	public void selectB() {
-		System.out.println("B is selected");
+	public String selectB() {
+		String inform = "B is selected";
+		System.out.println(inform);
+		return inform;
 	}
 }

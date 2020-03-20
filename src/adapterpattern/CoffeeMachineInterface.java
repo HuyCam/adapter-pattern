@@ -1,6 +1,6 @@
 package adapterpattern;
 
 public interface CoffeeMachineInterface {
-	void chooseFirstSelection();
-	void chooseSecondSelection();
+	String chooseFirstSelection();
+	String chooseSecondSelection();
 }
